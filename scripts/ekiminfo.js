@@ -1,13 +1,7 @@
-var profile = {
-    fullname: "Micheal Ayeni",
-    hng_id: "HNG-05908",
-    language: "Javascript",
-    email: "ekiminfomedia@gmail.com"
-}
+var name = "Micheal Ayeni"
+var ID = "HNG-05908"
+var language = "Javascript"
+var email = "ekiminfomedia@gmail.com"
+let output = `Hello World, this is ${name} with HNGi7 ID ${ID} using ${language} for stage 2 task`;
+console.log(output)
 
-function myProfile() {
-    let output = `Hello World, this is ${profile.fullname} with HNGi7 ID ${profile.hng_id} using ${profile.language} for stage 2 task`;
-    return console.log(output)  
-}
-
-myProfile()
